@@ -1,0 +1,169 @@
+body{
+    color: #bfc8db;
+   background-color:  #1e202b;
+}
+
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.header{
+    padding: 50px 0;
+}
+
+
+.branding{
+    float: left;
+    color:#0098ad;
+    text-decoration: none;
+}
+.branding.logo{
+    margin-right: 10px;
+}
+.logo-type{
+   display: inline-block;
+   vertical-align: middle;
+}
+.logo-type h1{
+    font-weight: 700;
+   margin-top: 5px;
+    color: white;
+    font-size: 18px;
+}
+.logo-type p{
+    display: block;
+    color: #bfc1c8;
+}
+.logo-type ul{
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+.nav{
+  
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.nav li a{
+    color: white;
+}
+.hero{
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.find-location{
+    position: relative;
+    margin-bottom: 70px;
+
+}
+.find-location
+       input[type="text"]{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+
+ .find-location
+ input[type="button"]{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+form input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+.site-footer{
+    background-color: #262936;
+    padding: 50px 0 0;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-md-8{
+    
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.subscribe-form{
+    position: relative;
+    margin-bottom: 30px;
+}
+ .input-text{
+    color: white;
+    width: 100%;
+    background: #1e202b;
+    padding: 20px 100px 20px 20px;
+}
+.input-submit{
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #0098ad;
+    color: white;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    bottom: 5px;
+    border: none;
+}
+p{
+    display: block;
+    margin: auto;
+}
+.col-md-3{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ .col-md-3.social-links a{
+   border-radius: 50px;
+   color: white;
+   background-color: red;
+}
+.item-header{
+background-color: #1e202b;
+color: rgba(0, 0, 0, 0.1);
+padding: 10px;
+}
+.item-info{
+    background-color: #1e202b;
+}
+.forecast{
+    background-color: #262936 ;
+   
+    
+}
+sub{
+font-size: 75%;
+    line-height: 0;
+    position: relative;
+}
+.forecast-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.forecast-content{
+
+}
+#today_date_day_name{
+    margin: -8px;
+}
+#tommorow-date{
+    background: rgba(0, 0, 0, 0.2);
+}
